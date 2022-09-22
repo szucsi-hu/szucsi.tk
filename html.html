@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Szűcs Antal">
+  <meta name="copyright" content="Szűcs Antal">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="Generator" content="Visual Studio Code">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="/lib/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">   
+ <title>HTML ismeretek</title>    
+</head>
+
+<body>
+  <div class="container">
+		<h1>HTML bemutató</h1>
+    <p>Ebben a cikkben megismerkedhetsz a HTML nyelv alapinformációival, például megtudhatod, hogy mi az a HTML és hogy mire használják.</p>
+    <h2>Mi a HTML?</h2>
+    <p>A HTML (angolul: HyperText Markup Language = hiperszöveges jelölőnyelv) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, 
+    és mára már internetes szabvánnyá vált a W3C (World Wide Web Consortium) támogatásával. Az aktuális változata az 5-ös. </p>
+    <p>Egy HTML kód egyértelműen meghatározza a weboldal felépítését, kinézetét. Azaz a HTML nyelven megírt kódot a webböngésző értelmezi, 
+    majd a kód alapján megjeleníti a már általunk megszokott oldalakat.</p>
+    <h2>Hogy néz ki egy HTML kód?</h2>
+    <img src="images/html.kod.png">
+    <p>A bal oldalon láthatjuk azt, hogy hogyan néz ki konkrétan egy HTML-kód, a jobb oldalon viszont azt láthatjuk, 
+    hogy a bal oldalra beírt kód hogyan fog megjelenni a böngészőnkben.</p>
+    <h2>A fentebb látható kód elemzése:</h2>
+
+<b>&lt;!DOCTYPE html&gt;:</b> Ez a sor határozza meg, hogy ez egy HTML dokumentum lesz, ezzel üzenve a böngészők számára.<br>
+<b>&lt;html&gt;:</b> Ez a HTML fájlunk gyökéreleme, kötelező ennek következnie a !DOCTYPE html rész után.<br>
+<b>&lt;head&gt;:</b> Ezt magyarul fejnek, fejszekciónak vagy fejrésznek hívjuk. Alapvető információkat tartalmaz a HTML oldalunkról. 
+Például a következő szekciót.<br>
+<b>&lt;title&gt;:</b> Ez határozza meg a HTML oldal nevét. A böngésző innen olvassa ki a böngésző címsorában látható szöveget.<br>
+<b>&lt;/title&gt;:</b> Ez az előző elem zárópárja. A nyitó és a záró tag közé kerül a HTML oldal címe.<br>
+<b>&lt;body&gt;:</b> Ez a dokumentum “test” része, ezután kell írni a weboldal tartalmát. Az e mögé írt tartalmak fognak megjelenni a böngészőben a weboldal 
+részeként. Ezt követni fog majd még egy &lt;/body&gt; tag. De ezt nem rakhatjuk ki még most. A záró tag-et csak akkor rakhatjuk ki, 
+ha a weboldalunkat már feltöltöttük tartalommal.<br>
+<b>&lt;h1&gt;:</b> Ez egy címsor. A HTML nyelvben több címsor is létezik. (Például h1, h2, h3 stb.) A h1 a legnagyobb címsor, azaz a weboldalon ez lesz a 
+legnagyobb szöveg.<br>
+<b>&lt;/h1&gt;:</b> Ez a címsor záró tag-e. A &lt;h1&gt; és &lt;/h1&gt; közé került szöveget fogja nagy betűkkel kiírni a weboldalra.<br>
+<b>&lt;p&gt;:</b> Ez a bekezdést jelöli. Az ezután írt szöveget normál méretben fogja megjeleníteni a böngésző.<br>
+<b>&lt;/p&gt;:</b> Ez az bekezdés zárópárja.<br>
+<b>&lt;/body&gt;:</b> Az elején írtuk a &lt;body&gt; nyitó tag-et. Ez a zárópárja. Ez jelzi a böngésző számára, hogy eddig tartott a megjelenítendő rész.<br>
+<b>&lt;/html&gt;:</b> Ez pedig azt jelzi a böngészőnek, hogy itt ér véget teljesen a HTML dokumentum.
+
+<pre><code>
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang=&quot;en&quot;&gt;
+     &lt;head&gt;
+        &lt;title&gt;My first web page&lt;/title&gt;
+     &lt;/head&gt;
+
+     &lt;body&gt;
+        &lt;p&gt;Hello World!&lt;/p&gt;
+     &lt;/body&gt;
+  &lt;/html&gt;
+</code></pre>
+
+	</div>
+</body>
+</html>
